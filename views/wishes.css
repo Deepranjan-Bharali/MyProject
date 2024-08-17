@@ -1,0 +1,26 @@
+body{
+    margin:10px;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-image: url("/images/p3_img.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.card{
+    width: 350px;
+    height: 200px;
+    margin: 10px 20px;
+     background: linear-gradient(purple, red);
+     padding: 15px;
+     border-radius: 20px;
+     color: white; 
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
