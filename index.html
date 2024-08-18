@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="/views/p1_style.css">
 </head>
 <body>
+     <video autoplay loop muted play-inline class="back-video">
+        <source src="/images/Back-Video.mp4">
+    </video>
    
     <div class="p1-body">
      <div class="fly-in">
@@ -25,7 +28,7 @@
     
     <script>
         function showButton(){
-            const button = document.getElementByIdO("surprise-btn");
+            const button = document.getElementById("surprise-btn");
             setTimeout(()=>{
                 button.style.display= "block";
          },3000);
