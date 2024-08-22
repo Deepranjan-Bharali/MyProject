@@ -8,13 +8,21 @@
    
 </head>
 <body>
+    <audio id="myAudio">
+        <source src="/images/p2_audio.mp3" type="audio/mpeg">
+    </audio>
+    
+    <video autoplay loop muted play-inline class="back-video">
+        <source src="/images/p2_back_video.mp4">
+    </video>
     <div class="item">
-       
         <ul>
-            <li><a href="memory.html">Memory</li></a>
-            <li><a href="wishes.html">Wishes</a></li>
-            <li><a href="gift.html">Gift</a></li>
+            <form action="memory.html"><button class="btn">Memory</button></form>
+            <form action="wishes.html"><button class="btn">Wish</button></form>
+            <form action="gift.html"><button class="btn">Gift</button></form>
         </ul>
     </div>
 </body>
+<script src="p2.js"></script>
 </html>
+
