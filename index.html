@@ -5,10 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BirthDay</title>
     <link rel="stylesheet" href="/views/p1_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap" rel="stylesheet">
 </head>
 <body>
-     <video autoplay loop muted play-inline class="back-video">
-        <source src="/images/Back-Video.mp4">
+    <audio id="myAudio" autoplay muted>
+        <source src="/images/p2_audio.mp3" type="audio/mpeg">
+    </audio>
+    <video autoplay loop muted play-inline class="back-video">
+        <source src="/images/p1_back_Video.mp4">
     </video>
    
     <div class="p1-body">
@@ -19,21 +25,13 @@
      </div>
       
      <div class="fly-out">
-        HAPPY BIRTHDAY
+       <p>HAPPY BIRTHDAY</p> 
      </div>
      <form action="/views/page2.html">
-        <button class="surprise-btn">Surprise</button>
+        <button class="surprise-btn" id="surprise-btn">Surprise</button>
     </form>
     </div>
-    
-    <script>
-        function showButton(){
-            const button = document.getElementById("surprise-btn");
-            setTimeout(()=>{
-                button.style.display= "block";
-         },3000);
-        }
-        window.onload= showButton;
-        </script>
 </body>
+        <script href="app.js"></script>
+
 </html>
