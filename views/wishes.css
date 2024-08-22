@@ -1,6 +1,9 @@
 body{
-    margin:10px;
+    margin: 0;
     padding: 0;
+    width: 100vw;
+    height: 100vh;
+    cursor: url('/images/cursor2_image.png'), auto;
 }
 
 .container{
@@ -12,15 +15,42 @@ body{
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
+    overflow: hidden;
+    justify-content: center;
 }
 
 .card{
-    width: 350px;
-    height: 200px;
+    width: 500px;
+    height: 700px;
     margin: 10px 20px;
-     background: linear-gradient(purple, red);
-     padding: 15px;
-     border-radius: 20px;
-     color: white; 
-     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    background-color:transparent;
+    padding: 15px;
+    border-radius: 20px;
+    color:black; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 1s;
 }
+
+.card:hover {
+    background-color: transparent ;
+    transform: scale(1.1); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    backdrop-filter: blur(10px);
+    color: black;
+    margin: 25px;
+}
+
+.card {
+    
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    backdrop-filter: blur(2px);
+    border-radius: 25px;
+}
+
+audio{
+    display: none;
+}
+
+
