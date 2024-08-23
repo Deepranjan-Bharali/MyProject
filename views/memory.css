@@ -21,7 +21,7 @@ body{
     height: 80%;
     background-image: url("/images/img1.jpg");
     background-size: 100% 100%;
-    box-shadow:whitesmoke 0px 10px 24px;
+    box-shadow:whitesmoke 0px 1px 15px;
     animation: changeImage 20s linear infinite;
     animation-delay: 3s;
     border-radius: 25px;
@@ -63,6 +63,7 @@ body{
 
 .img-container:hover{
     transform: scale(1.1); 
+    box-shadow:whitesmoke 0px 5px 20px;
 }
 
 audio{
