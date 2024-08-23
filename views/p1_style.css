@@ -37,7 +37,7 @@ body{
 
 .fly-in div{
     position: absolute;
-    margin-top: -85px;
+    margin-top: -105px;
     opacity: 0;
     left: 10vw;
     width: 80vw;
